@@ -10,12 +10,12 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="example_pkg",
     version="0.0.1",
-    author="Example Author",
-    author_email="author@example.com",
-    description="A small example package",
+    author="Xiang Wang",
+    author_email="ramwin@qq.com",
+    description="python api for amap 高德地图的api",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/example-project",
+    url="https://github.com/ramwin/amap",
     packages=setuptools.find_packages(),
     classifiers=(
         "Programming Language :: Python :: 3",
